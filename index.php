@@ -25,7 +25,7 @@ if (!isInteger($input1) || !isInteger($input2)) {
 }
 
 // Преобразование значений в целые числа
-$num1 = $input1;
+$num1 = (int)$input1;
 $num2 = (int)$input2;
 
 // Проверка, что второе число не равно нулю
