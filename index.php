@@ -14,7 +14,7 @@ $input2 = trim(fgets($handle));
 function isInteger($input) {
     return ctype_digit(strval($input)) || (strval($input) === "0");
 }
-
+var_dump($input1);
 // Проверка, что оба значения являются целыми числами
 if (!isInteger($input1) || !isInteger($input2)) {
     // Если хотя бы одно значение не является целым числом,
